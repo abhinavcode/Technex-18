@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bgtechnex1"
+    tools:context="com.iitbhu.technex18.LoginActivity">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        card_view:cardBackgroundColor="#fff"
+        card_view:cardCornerRadius="16dp"
+        card_view:cardElevation="3dp"
+        card_view:contentPadding="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="40dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/circle"
+                android:fadingEdge="vertical|horizontal"
+                android:padding="8dp"
+                android:src="@drawable/technex"
+                android:translationZ="16dp"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="0dp" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                app:errorTextAppearance="@style/error_appearance"
+
+                android:id="@+id/userlayout"
+                android:theme="@style/TextLabel"
+                android:layout_marginTop="8dp"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/username"
+                    android:textColor="@color/colorPrimary"
+                    android:nextFocusDown="@+id/password"
+                    android:layout_width="fill_parent"
+                    android:imeOptions="actionNext"
+                    android:backgroundTint="@color/colorPrimary"
+
+                    android:singleLine="true"
+                    android:drawableStart="@drawable/username"
+                    android:drawableTint="@color/colorPrimary"
+                    android:drawablePadding="4dp"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorPrimary"
+                    android:hint="Email" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/passlayout"
+                app:errorTextAppearance="@style/error_appearance"
+
+                android:theme="@style/TextLabel"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/password"
+                    android:nextFocusDown="@+id/login"
+                    android:layout_width="fill_parent"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:drawablePadding="4dp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:imeOptions="actionGo"
+                    android:drawableStart="@drawable/pass1"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary"
+                    android:inputType="textPassword"/>
+
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/PrimaryButton"
+                android:textColor="#fff"
+                android:textAllCaps="true"
+                android:text="LOGIN"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</android.support.design.widget.CoordinatorLayout>
