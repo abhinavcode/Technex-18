@@ -4,10 +4,10 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Bundle;
 import android.support.design.widget.TextInputEditText;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -33,8 +33,6 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-
-import static android.view.View.GONE;
 import static com.iitbhu.technex18.utils1.Constants.COLLEGE;
 import static com.iitbhu.technex18.utils1.Constants.CONTACT;
 import static com.iitbhu.technex18.utils1.Constants.EMAIL;
@@ -64,7 +62,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
         setContentView(R.layout.activity_login);
         //initialize
         cardView=(CardView)findViewById(R.id.card_view_login);

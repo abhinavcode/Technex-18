@@ -17,17 +17,18 @@ import android.widget.TextView;
 public class HomeActivity extends AppCompatActivity {
     private TextView register;
     private Button login;
+    private Button gallery;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
 
         setContentView(R.layout.activity_home);
 //        initialise
         register=(TextView) findViewById(R.id.register);
         login=(Button)findViewById(R.id.calogin);
-
+        gallery=(Button)findViewById(R.id.gallery);
         //button
         register.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,6 +57,12 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(HomeActivity.this,LoginActivity.class));
+            }
+        });
+        gallery.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HomeActivity.this,GridViewActivity.class));
             }
         });
 
