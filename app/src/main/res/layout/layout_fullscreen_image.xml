@@ -38,7 +38,7 @@
         android:paddingBottom="2dp"
         android:paddingTop="2dp"
         android:text="Close"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:textColor="#ffffff" />
 
 </RelativeLayout>

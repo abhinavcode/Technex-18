@@ -1,4 +1,4 @@
-package com.iitbhu.technex18;
+package com.iitbhu.technex18.Activity;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -7,6 +7,7 @@ import android.graphics.Rect;
 import android.os.Bundle;
 import android.support.annotation.DimenRes;
 import android.support.annotation.NonNull;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
@@ -15,16 +16,17 @@ import android.view.Display;
 import android.view.View;
 import android.view.WindowManager;
 
+import com.iitbhu.technex18.R;
 import com.iitbhu.technex18.adapter.GridViewImageAdapter;
 import com.iitbhu.technex18.helper.AppConstant;
-import com.liuguangqiang.swipeback.SwipeBackActivity;
-import com.liuguangqiang.swipeback.SwipeBackLayout;
+
+import jp.wasabeef.recyclerview.animators.SlideInUpAnimator;
 
 /**
  * Created by abhinav on 10/10/17.
  */
 
-public class GridViewActivity extends SwipeBackActivity {
+public class GridViewActivity extends AppCompatActivity {
 
 //    private Utils utils;
 //    private ArrayList<String> imagePaths = new ArrayList<String>();
@@ -36,7 +38,7 @@ public class GridViewActivity extends SwipeBackActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_grid_view);
-        setDragEdge(SwipeBackLayout.DragEdge.LEFT);
+//        setDragEdge(SwipeBackLayout.DragEdge.LEFT);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 //
@@ -53,6 +55,7 @@ public class GridViewActivity extends SwipeBackActivity {
         ItemOffsetDecoration itemDecoration = new ItemOffsetDecoration(getBaseContext(), R.dimen.item_offset);
 
         recyclerView.addItemDecoration(itemDecoration);
+        recyclerView.setItemAnimator(new SlideInUpAnimator());
 
         // Initilizing Grid View
 //        InitilizeGridLayout();

@@ -17,12 +17,13 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.iitbhu.technex18.FullScreenViewActivity;
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.iitbhu.technex18.Activity.FullScreenViewActivity;
 import com.iitbhu.technex18.R;
 import com.iitbhu.technex18.utils1.galleryImage;
 
 import java.util.ArrayList;
-import java.util.Random;
 
 public class GridViewImageAdapter extends RecyclerView.Adapter<GridViewImageAdapter.ViewHolder> {
 
@@ -31,7 +32,6 @@ public class GridViewImageAdapter extends RecyclerView.Adapter<GridViewImageAdap
     private int imageWidth;
     int[] img={};
     String[] desc={};
-
     public GridViewImageAdapter(Activity activity,
                                 int imageWidth) {
         this._activity = activity;
@@ -59,25 +59,22 @@ public class GridViewImageAdapter extends RecyclerView.Adapter<GridViewImageAdap
         TextView textView = holder.desc;
         textView.setText(desc[position]);
         ImageView imageView=holder.pic;
-        imageView.setBackgroundResource(img[position]);
-        imageView.setScaleType(ImageView.ScaleType.FIT_XY);
+//        imageView.setBackgroundResource(img[position]);
+//        imageView.setScaleType(ImageView.ScaleType.FIT_XY);
         imageView.setAdjustViewBounds(true);
         BitmapDrawable bd=(BitmapDrawable) _activity.getResources().getDrawable(img[position]);
         FrameLayout frameLayout=holder.frameLayout;
-        Random random=new Random();
         frameLayout.requestLayout();
-        int w=frameLayout.getLayoutParams().width;
         int width=bd.getBitmap().getWidth();
         int height=bd.getBitmap().getHeight();
-
-        System.out.println("width"+w+"\n"+"scren"+imageWidth+"imagewidth"+ bd.getBitmap().getWidth() +"imageheight"+bd.getBitmap().getHeight());
+        Glide.with(_activity).load(img[position]).diskCacheStrategy(DiskCacheStrategy.ALL).centerCrop().into(imageView);
+//        System.out.println("width"+w+"\n"+"scren"+imageWidth+"imagewidth"+ bd.getBitmap().getWidth() +"imageheight"+bd.getBitmap().getHeight());
         frameLayout.getLayoutParams().height=(imageWidth*height)/width;
 //        frameLayout.setLayoutParams(new ViewGroup.LayoutParams(imageWidth+random.nextInt()%imageWidth,imageWidth+random.nextInt()%imageWidth));
 //        frameLayout.setLayoutParams(new GridView.LayoutParams(imageWidth,
 //                imageWidth));
 
     }
-
     @Override
     public long getItemId(int position) {
         return position;

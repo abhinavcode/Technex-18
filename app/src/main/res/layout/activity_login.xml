@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:background="@drawable/bgtechnex1"
-    tools:context="com.iitbhu.technex18.LoginActivity">
+    tools:context="com.iitbhu.technex18.Activity.LoginActivity">
 
     <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:card_view="http://schemas.android.com/apk/res-auto"

@@ -1,9 +1,10 @@
-package com.iitbhu.technex18;
+package com.iitbhu.technex18.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 
+import com.iitbhu.technex18.R;
 import com.iitbhu.technex18.adapter.FullScreenImageAdapter;
 import com.liuguangqiang.swipeback.SwipeBackActivity;
 

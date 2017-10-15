@@ -21,6 +21,7 @@ public interface Constants {
     public static final String WHATSAPP_NUMBER = "whatsapp_number";
     public static final String PAST_EXP = "past_exp";
     public static final String WHY_CHOOSE_YOU = "why_choose_you";
+    public static int LOGIN=1;
 
     public static final String VERIFIED = "verified";
     public static final String HOSTEL = "hostel";

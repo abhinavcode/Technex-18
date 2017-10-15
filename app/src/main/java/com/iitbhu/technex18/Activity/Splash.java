@@ -1,4 +1,4 @@
-package com.iitbhu.technex18;
+package com.iitbhu.technex18.Activity;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
@@ -6,6 +6,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.VideoView;
+
+import com.iitbhu.technex18.R;
 
 /**
  * Created by abhinav on 29/9/17.

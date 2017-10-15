@@ -1,4 +1,4 @@
-package com.iitbhu.technex18;
+package com.iitbhu.technex18.Activity;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -26,6 +26,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.iitbhu.technex18.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -36,6 +37,7 @@ import java.util.Map;
 import static com.iitbhu.technex18.utils1.Constants.COLLEGE;
 import static com.iitbhu.technex18.utils1.Constants.CONTACT;
 import static com.iitbhu.technex18.utils1.Constants.EMAIL;
+import static com.iitbhu.technex18.utils1.Constants.LOGIN;
 import static com.iitbhu.technex18.utils1.Constants.NAME;
 import static com.iitbhu.technex18.utils1.Constants.PASSWORD;
 import static com.iitbhu.technex18.utils1.Constants.PAST_EXP;
@@ -187,8 +189,11 @@ public class LoginActivity extends AppCompatActivity {
                         Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
                         progress.dismiss();
 
-                        Intent intent = new Intent(getBaseContext(), HomeActivity.class);
-                        startActivity(intent);
+//                        Intent intent = new Intent(getBaseContext(), HomeActivity.class);
+//                        startActivity(intent);
+                        Intent intent=new Intent();
+                        intent.putExtra("MESSAGE","SUCC");
+                        setResult(LOGIN,intent);
                         finish();
 
                     } else if (status == 0) {
