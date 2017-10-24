@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/debug/menu/dashboard1.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/menu/dashboard1.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/debug/menu/activity_dashboard_drawer.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/menu/activity_dashboard_drawer.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/debug/menu/dashboard.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/menu/dashboard.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/debug/menu/notifications.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/menu/notifications.xml"
+    }
+]

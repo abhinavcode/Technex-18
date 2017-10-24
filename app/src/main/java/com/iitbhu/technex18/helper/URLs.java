@@ -24,6 +24,8 @@ public interface URLs {
     String EDIT_PROFILE="http://technex-ca.herokuapp.com/api/editprofile/";
     String LEADERBOARD="http://technex-ca.herokuapp.com/api/leaderboard/";
     String DASHBOARD="http://technex-ca.herokuapp.com/api/dashboard/";
+    String DASHBOARD_UPDATE="http://technex-ca.herokuapp.com/api/update/";
+    String NOTIFICATION="http://technex-ca.herokuapp.com/api/notification/";
     String REGISTER_URL = "http://technexuser.herokuapp.com/api/register/";
     String GUEST_LECTURES_URL = "https://technexuser.herokuapp.com/api/guestLecture/";
     String EVENTS_URL = "https://technexuser.herokuapp.com/api/eventApi/";

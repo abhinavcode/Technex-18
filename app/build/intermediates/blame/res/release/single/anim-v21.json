@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/anim-v21/design_appbar_state_list_animator.xml",
+        "source": "/home/abhinav/.android/build-cache/3c9e5e2935e96df31b4404a96f294455092726c3/output/res/anim-v21/design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/home/abhinav/.android/build-cache/3c9e5e2935e96df31b4404a96f294455092726c3/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/home/abhinav/.android/build-cache/3c9e5e2935e96df31b4404a96f294455092726c3/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    }
+]

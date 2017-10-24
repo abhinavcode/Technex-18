@@ -62,6 +62,7 @@ public class ProfileFragment extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+
     TextInputEditText firstName;
     TextInputEditText lastName;
     TextInputEditText email;
@@ -144,9 +145,11 @@ public class ProfileFragment extends Fragment {
         DisplayMetrics displayMetrics = new DisplayMetrics();
         getActivity().getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
         int height = displayMetrics.heightPixels;
+        int width=displayMetrics.widthPixels;
 //        scrollView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,height/2));
 //        scrollView.getLayoutParams().height=height/2;
         cardView.getLayoutParams().height=height/2+height/8;
+        cardView.getLayoutParams().width=(3*width)/4;
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -200,9 +203,9 @@ public class ProfileFragment extends Fragment {
                 try {
                     Log.d(TAG, "Login parser executed!");
 
-                    int status = resp.getInt("status");
+                    String status = resp.getString("status");
                     //save and and to my server
-                    if (status == 1) {
+                    if (status.equals("OK")) {
 
                         SharedPreferences.Editor editor=myPrefs.edit();
                         editor.putBoolean(REGISTERED,true);
@@ -222,7 +225,7 @@ public class ProfileFragment extends Fragment {
 //                        Intent intent = new Intent(getBaseContext(), HomeActivity.class);
 //                        startActivity(intent);
 
-                    } else if (status == 0) {
+                    } else  {
                         cardView.setVisibility(View.VISIBLE);
                         progress.dismiss();
                         cardView.setVisibility(View.VISIBLE);
@@ -307,4 +310,6 @@ public class ProfileFragment extends Fragment {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
+
+
 }

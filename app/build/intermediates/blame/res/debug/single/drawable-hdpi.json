@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_settings_black_24dp.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable-hdpi/ic_settings_black_24dp.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/debug/drawable-hdpi/username.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable-hdpi/username.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_home_black_24dp.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable-hdpi/ic_home_black_24dp.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_name.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable-hdpi/ic_action_name.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_local_movies_black_24dp.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable-hdpi/ic_local_movies_black_24dp.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_notifications_black_24dp.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable-hdpi/ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_photo_library_black_24dp.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable-hdpi/ic_photo_library_black_24dp.png"
+    }
+]

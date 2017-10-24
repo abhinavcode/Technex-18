@@ -5,11 +5,13 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -21,10 +23,10 @@ import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
-import com.iitbhu.technex18.JSONParses.JSONParseLeaderboard;
+import com.iitbhu.technex18.JSONParses.JSONParseNotification;
 import com.iitbhu.technex18.R;
-import com.iitbhu.technex18.adapter.LeaderboardFragmentAdapter;
-import com.iitbhu.technex18.container.LeaderBoard;
+import com.iitbhu.technex18.adapter.NotificationFragmentAdapter;
+import com.iitbhu.technex18.container.Notification;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -33,7 +35,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.iitbhu.technex18.helper.URLs.DASHBOARD;
+import static com.iitbhu.technex18.helper.URLs.NOTIFICATION;
 import static com.iitbhu.technex18.utils1.Constants.EMAIL;
 import static com.iitbhu.technex18.utils1.Constants.PREFERENCES;
 
@@ -51,10 +53,10 @@ public class NotificationFragment extends Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
     private RequestQueue queue;
-
-    List<LeaderBoard> mDataset;
+    LinearLayout ll;
+    List<Notification> mDataset;
     RecyclerView mRecyclerView;
-    LeaderboardFragmentAdapter mAdapter;
+    NotificationFragmentAdapter mAdapter;
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
@@ -98,8 +100,11 @@ public class NotificationFragment extends Fragment {
         // Inflate the layout for this fragment
         View v= inflater.inflate(R.layout.fragment_notification, container, false);
         mRecyclerView=(RecyclerView)v.findViewById(R.id.recycler_view_notification);
-
-
+        GridLayoutManager gridlayoutManager = new GridLayoutManager(getActivity().getBaseContext(),1);
+        mRecyclerView.setLayoutManager(gridlayoutManager);
+        ll=(LinearLayout)v.findViewById(R.id.llprogressNotif);
+        ll.setVisibility(View.VISIBLE);
+        sendRequest();
         return v;
     }
 
@@ -152,13 +157,14 @@ public class NotificationFragment extends Fragment {
         SharedPreferences myprefs=getActivity().getSharedPreferences(PREFERENCES, Context.MODE_PRIVATE);
 
         params.put("email",myprefs.getString(EMAIL,"email"));
-        String url=DASHBOARD;
+        String url=NOTIFICATION;
         JsonObjectRequest strReq = new JsonObjectRequest(Request.Method.POST,
                 url, new JSONObject(params), new Response.Listener<JSONObject>() {
 
             @Override
             public void onResponse(JSONObject resp) {
                 Log.d(TAG, resp.toString());
+                ll.setVisibility(View.GONE);
 
 
                 try {
@@ -167,25 +173,29 @@ public class NotificationFragment extends Fragment {
                     int status = resp.getInt("status");
                     //save and and to my server
                     if (status == 1) {
-                        String r=resp.getJSONArray("Leaderboard").toString();
+                        String r=resp.getJSONArray("notification").toString();
                         System.out.println("yes"+r);
-                        JSONParseLeaderboard pj = new JSONParseLeaderboard();
-                        pj.parseJSONLeaderboard(r);
+                        JSONParseNotification pj = new JSONParseNotification();
+                        pj.parseJSONNotification(r);
                         mDataset = pj.getItems();
-                        System.out.println(mDataset.get(0).getEmail());
-                        mAdapter = new LeaderboardFragmentAdapter(mDataset,getContext());
+//                        Log.d(TAG,"1234"+mDataset.get(0).getMessage());
+                        mAdapter = new NotificationFragmentAdapter(mDataset,getContext(),ll);
                         mRecyclerView.setAdapter(mAdapter);
+                        ll.setVisibility(View.GONE);
 
                     } else if (status == 0) {
                         Log.d(TAG,"wrong method");
+                        ll.setVisibility(View.GONE);
 
                     }
-                    Log.d(TAG, "Leaderboard parser executed properly!");
+                    Log.d(TAG, "Notif parser executed properly!");
                 } catch (JSONException e) {
                     e.printStackTrace();
-                    Log.d(TAG, "Leaderboard parser failed!");
-                }
+                    Log.d(TAG, "Notif parser failed!");
+                    ll.setVisibility(View.GONE);
 
+                }
+                ll.setVisibility(View.GONE);
 
             }
         }, new Response.ErrorListener() {
@@ -196,6 +206,7 @@ public class NotificationFragment extends Fragment {
                 System.out.println("Error: "+ error.getMessage());
                 Toast.makeText(getActivity(),"Network Unreachable!",Toast.LENGTH_SHORT).show();
 
+                ll.setVisibility(View.GONE);
 
             }
         }){

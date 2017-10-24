@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable-hdpi-v11/pass.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable-hdpi-v11/pass.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable-hdpi-v11/password.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable-hdpi-v11/password.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable-hdpi-v11/pass1.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable-hdpi-v11/pass1.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable-hdpi-v11/ic_stat_name.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable-hdpi-v11/ic_stat_name.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable-hdpi-v11/show_pass.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable-hdpi-v11/show_pass.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable-hdpi-v11/user.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable-hdpi-v11/user.png"
+    }
+]

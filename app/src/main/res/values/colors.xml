@@ -6,5 +6,8 @@
     <color name="colorError">#ff1744</color>
     <color name="colorAlpha">#bb000000</color>
     <color name="colorBG">#bb000000</color>
+    <color name="colorSucc">#64dd17</color>
+    <color name="colorFail">#d50000</color>
+    <color name="colorBGNotif">#b3e5fc</color>
 
 </resources>

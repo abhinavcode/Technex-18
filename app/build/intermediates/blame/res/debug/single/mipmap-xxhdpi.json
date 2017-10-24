@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_round.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/password.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/mipmap-xxhdpi/password.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]

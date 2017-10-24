@@ -1,0 +1,7 @@
+#Wed Oct 25 02:44:07 IST 2017
+base.0=/home/abhinav/Desktop/Technex18/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e63d4bce453ba64aa5256321c6e1c73af97c477a
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/abhinav/Desktop/Technex18/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a7fc73fd0d1c6887e1177d73845916b12657d55e/classes.dex
+base.1=/home/abhinav/Desktop/Technex18/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a7fc73fd0d1c6887e1177d73845916b12657d55e
+file.0=/home/abhinav/Desktop/Technex18/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e63d4bce453ba64aa5256321c6e1c73af97c477a/classes.dex

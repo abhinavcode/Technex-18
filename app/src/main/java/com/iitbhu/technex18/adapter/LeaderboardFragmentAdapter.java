@@ -74,7 +74,7 @@ public class LeaderboardFragmentAdapter extends RecyclerView.Adapter<Leaderboard
 //            holder.rank.setTypeface(Typeface.DEFAULT_BOLD);
 //            holder.email.setTypeface(Typeface.DEFAULT_BOLD);
 //            holder.point.setTypeface(Typeface.DEFAULT_BOLD);
-            holder.cardView.setBackgroundColor(Color.LTGRAY);
+            holder.cardView.setBackgroundColor(context.getResources().getColor(R.color.colorBGNotif));
         }
     }
 

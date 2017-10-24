@@ -1,0 +1,358 @@
+[
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/primarybutton.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/primarybutton.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_seekbar_track_material.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_ic_clear_material.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/side_nav_bar.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/ic_menu_camera.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/ic_menu_camera.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/password.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/password.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/g3.jpg",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/g3.jpg"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/bgtechnex1.jpg",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/bgtechnex1.jpg"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/banner.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/banner.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_tab_indicator_material.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/editboxround.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/editboxround.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/g4.jpg",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/g4.jpg"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/username.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/username.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_textfield_search_material.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_cab_background_top_material.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/dashboard_combined.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/dashboard_combined.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/g5.jpg",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/g5.jpg"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/notification.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/notification.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/g2.jpg",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/g2.jpg"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/ic_menu_manage.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/ic_menu_manage.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/dashboard.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/dashboard.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/g10.jpg",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/g10.jpg"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/g12.jpg",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/g12.jpg"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/g8.jpg",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/g8.jpg"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/logout.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/logout.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_switch_thumb_material.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/button_background.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/button_background.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_ratingbar_material.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/profile_combined.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/profile_combined.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/bg_circle.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/bg_circle.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/design_ic_visibility.xml",
+        "source": "/home/abhinav/.android/build-cache/3c9e5e2935e96df31b4404a96f294455092726c3/output/res/drawable/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/navigation_empty_icon.xml",
+        "source": "/home/abhinav/.android/build-cache/3c9e5e2935e96df31b4404a96f294455092726c3/output/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_item_background_holo_light.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_btn_borderless_material.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/leaderboard1.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/leaderboard1.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/notification_combined.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/notification_combined.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/design_fab_background.xml",
+        "source": "/home/abhinav/.android/build-cache/3c9e5e2935e96df31b4404a96f294455092726c3/output/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_vector_test.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/dashboard1.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/dashboard1.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/secondrybutton.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/secondrybutton.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/g6.jpg",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/g6.jpg"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_ratingbar_small_material.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/design_snackbar_background.xml",
+        "source": "/home/abhinav/.android/build-cache/3c9e5e2935e96df31b4404a96f294455092726c3/output/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/ic_menu_send.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/ic_menu_send.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_text_cursor_material.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_btn_radio_material.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_btn_check_material.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_light.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/ic_menu_share.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/ic_menu_share.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/g1.jpg",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/g1.jpg"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/profile1.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/profile1.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/circular_progress_bar.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/circular_progress_bar.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_ic_ab_back_material.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/gallery1.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/gallery1.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/gallery.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/gallery.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/g7.JPG",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/g7.JPG"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/ic_menu_slideshow.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_dialog_material_background.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/notification1.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/notification1.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_item_background_holo_dark.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/technex_logo.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/technex_logo.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/leaderboard_combined.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/leaderboard_combined.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/profile.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/profile.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/ic_menu_gallery.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_ic_search_api_material.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/g11.JPG",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/g11.JPG"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/technex.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/technex.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/circle.xml",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/circle.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/launcher.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/launcher.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/leaderboard.png",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/leaderboard.png"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/g9.jpg",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/g9.jpg"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/home/abhinav/Desktop/Technex18/app/build/intermediates/res/merged/release/drawable/drawerbg.jpg",
+        "source": "/home/abhinav/Desktop/Technex18/app/src/main/res/drawable/drawerbg.jpg"
+    }
+]

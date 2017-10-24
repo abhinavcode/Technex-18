@@ -5,15 +5,39 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.CardView;
 import android.text.Html;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.android.volley.AuthFailureError;
+import com.android.volley.DefaultRetryPolicy;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.VolleyLog;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.Volley;
 import com.iitbhu.technex18.R;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import static com.iitbhu.technex18.helper.URLs.DASHBOARD;
+import static com.iitbhu.technex18.helper.URLs.DASHBOARD_UPDATE;
+import static com.iitbhu.technex18.utils1.Constants.EMAIL;
 import static com.iitbhu.technex18.utils1.Constants.FIRST_NAME;
 import static com.iitbhu.technex18.utils1.Constants.LAST_NAME;
 import static com.iitbhu.technex18.utils1.Constants.PREFERENCES;
@@ -34,6 +58,12 @@ public class HomeFragment extends Fragment {
     ImageView banner;
     TextView welcome;
     SharedPreferences myPrefs;
+    LinearLayout lldir,llstu;
+    CardView carddir,cardstu;
+    Button updatedir,updatestu;
+    EditText dir,stu;
+    RequestQueue queue;
+    LinearLayout loading;
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
@@ -77,11 +107,59 @@ public class HomeFragment extends Fragment {
         // Inflate the layout for this fragment
         View v= inflater.inflate(R.layout.fragment_home, container, false);
         myPrefs=this.getActivity().getSharedPreferences(PREFERENCES, Context.MODE_PRIVATE);
+        loading=(LinearLayout)v.findViewById(R.id.llhome);
         banner=(ImageView)v.findViewById(R.id.banner);
         welcome=(TextView)v.findViewById(R.id.welcome);
         welcome.setText(Html.fromHtml("Welcome <b>"+myPrefs.getString(FIRST_NAME,"firstName")+" "+ myPrefs.getString(LAST_NAME,"user")+"</b>.<br>You have been selected as Campus Ambassador. Stay Tuned."));
+        dir=(EditText)v.findViewById(R.id.dir);
+        stu=(EditText)v.findViewById(R.id.stu);
+        updatedir=(Button)v.findViewById(R.id.updateDir);
+        updatestu=(Button)v.findViewById(R.id.updateStu);
+        carddir=(CardView)v.findViewById(R.id.card_view_dir);
+        cardstu=(CardView) v.findViewById(R.id.card_view_stu);
+        lldir=(LinearLayout)v.findViewById(R.id.lldir);
+        llstu=(LinearLayout)v.findViewById(R.id.llstu);
+        sendRequest();
+        carddir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(lldir.getVisibility()==View.GONE){
+                    lldir.setVisibility(View.VISIBLE);
+
+                }
+                else{
+                    lldir.setVisibility(View.GONE);
+                }
+            }
+        });
+
+        cardstu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(llstu.getVisibility()==View.GONE){
+                    llstu.setVisibility(View.VISIBLE);
+                }
+                else{
+                    llstu.setVisibility(View.GONE);
+                }
+            }
+        });
+
+        updatedir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                update();
+            }
+        });
+        updatestu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                update();
+            }
+        });
         return v;
     }
+
 
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {
@@ -120,5 +198,151 @@ public class HomeFragment extends Fragment {
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
+    }
+
+
+
+
+    private void sendRequest(){
+//        final ProgressDialog pDialog = new ProgressDialog(getActivity());
+//        pDialog.setMessage("Loading...");
+//        pDialog.show();
+        loading.setVisibility(View.VISIBLE);
+        final String TAG = "TECHNEX DASHBOARD";
+        queue = Volley.newRequestQueue(getActivity());
+
+        Map<String, String> params = new HashMap<String, String>();
+        params.put("email",myPrefs.getString(EMAIL,EMAIL));
+        String url=DASHBOARD;
+        JsonObjectRequest strReq = new JsonObjectRequest(Request.Method.POST,
+                url, new JSONObject(params), new Response.Listener<JSONObject>() {
+
+            @Override
+            public void onResponse(JSONObject resp) {
+                Log.d(TAG, resp.toString());
+
+
+                try {
+                    Log.d(TAG, "Dashboard parser executed!");
+
+                    int status = resp.getInt("status");
+                    //save and and to my server
+                    if (status == 1) {
+                        String director=resp.getString("directordetail").toString();
+                        String student= resp.getString("studentbodydetail").toString();
+                        dir.setText(director);
+                        stu.setText(student);
+                    } else if (status == 0) {
+                        Log.d(TAG,"wrong method");
+                    }else if(status==4){
+                        Toast.makeText(getActivity(), "Update Student Head and Director details", Toast.LENGTH_SHORT).show();
+                    }
+                    else if(status==2){
+                        String student= resp.getString("studentbodydetail").toString();
+                        stu.setText(student);
+                        Toast.makeText(getActivity(), "Update Director Detail", Toast.LENGTH_SHORT).show();
+
+                    }
+                    else if(status==3){
+                        String director=resp.getString("directordetail").toString();
+                        dir.setText(director);
+                        Toast.makeText(getActivity(), "Update Student Head Detail", Toast.LENGTH_SHORT).show();
+                    }
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+
+                }
+                loading.setVisibility(View.GONE);
+
+            }
+        }, new Response.ErrorListener() {
+
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                VolleyLog.d(TAG, "Error: " + error.getMessage());
+                System.out.println("Error: "+ error.getMessage());
+
+                loading.setVisibility(View.GONE);
+
+            }
+        }){
+            @Override
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                Map<String, String> headers = new HashMap<String, String>();
+                headers.put("Content-Type", "application/json");
+                Log.d("HEADERS LOGIN", headers.toString());
+                return headers;
+            }
+        };
+        strReq.setRetryPolicy(new DefaultRetryPolicy(
+                30000,
+                0,
+                DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
+        queue.add(strReq);
+
+    }
+
+
+    public void update(){
+        loading.setVisibility(View.VISIBLE);
+        final String TAG = "TECHNEX DASHBOARD UPDATE";
+        queue = Volley.newRequestQueue(getActivity());
+
+        Map<String, String> params = new HashMap<String, String>();
+        params.put("email",myPrefs.getString(EMAIL,EMAIL));
+        params.put("directordetail",dir.getText().toString().trim());
+        params.put("studentbodydetail",stu.getText().toString().trim());
+        String url=DASHBOARD_UPDATE;
+        JsonObjectRequest strReq = new JsonObjectRequest(Request.Method.POST,
+                url, new JSONObject(params), new Response.Listener<JSONObject>() {
+
+            @Override
+            public void onResponse(JSONObject resp) {
+                Log.d(TAG, resp.toString());
+
+
+                try {
+                    Log.d(TAG, "Dashboard Update parser executed!");
+
+                    int status = resp.getInt("status");
+                    //save and and to my server
+                    if (status == 1||status==2) {
+                        Toast.makeText(getActivity(), "Update Successful", Toast.LENGTH_SHORT).show();
+//                        Toast.makeText(getActivity(), "Cannot Update", Toast.LENGTH_SHORT).show();
+
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+
+                }
+                loading.setVisibility(View.GONE);
+
+            }
+        }, new Response.ErrorListener() {
+
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                VolleyLog.d(TAG, "Error: " + error.getMessage());
+                System.out.println("Error: "+ error.getMessage());
+
+                loading.setVisibility(View.GONE);
+
+            }
+        }){
+            @Override
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                Map<String, String> headers = new HashMap<String, String>();
+                headers.put("Content-Type", "application/json");
+                Log.d("HEADERS LOGIN", headers.toString());
+                return headers;
+            }
+        };
+        strReq.setRetryPolicy(new DefaultRetryPolicy(
+                30000,
+                0,
+                DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
+        queue.add(strReq);
+
     }
 }

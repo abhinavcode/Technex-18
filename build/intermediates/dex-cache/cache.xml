@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/fa5b20ac8ea15f6ed2b020339a4055eac723e0fd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_c5bcc65b22b2192a4ed49d865294ffb5a7df90e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/9ccdb09de4cf9076d4bbd553e8da0a17a93bc836/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_bc6e6bcae68a600874a3f65bbbb66099c7d135b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/constraint-layout-solver-1.0.2_68c9bd934d8f0fab323d2b25099ce2c1612e6532.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abhinav/.android/build-cache/32cb178c0119618ecc9510467b87385c07de6007/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f92174baa3e97bac7f61d9c0f01442fb79ef187e/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/831c81a84b80c1854092b0a4a6830abd298ededa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a4d7907f73b799361eee90b9a8df20270d1cd9f">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/debug/classes_0a92202167ea5f6122d15ce2d0e89867a671c757.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/32cb178c0119618ecc9510467b87385c07de6007/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_f92174baa3e97bac7f61d9c0f01442fb79ef187e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/0070fac8b40cd765d15698b777add9f5ea71932f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_9bc23d827fc40297b444c299a37eb34bdf11b2fe.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abhinav/.android/build-cache/7930b3970c91f9821ae5b491394f92260e588c5b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ee40186cf7b7b45153b8d57c444808775d697d6a/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/4546123e6970945b9290fc60a46b0bbc25e226f7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_8fa1a72758df32ff47e367dbf3dfd0bde624d4c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/debug/glide-3.7.0_68b8f8e9c95a1c430340a3b8c97d7769add4d126.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/7930b3970c91f9821ae5b491394f92260e588c5b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_ee40186cf7b7b45153b8d57c444808775d697d6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/d08890cf10b98e4c1e2f8d25b2aa6bab7c1131a2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_a7ad8cce359af937903f425b190977e66f66e522.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/79cab39a4f5238ef8e29b6810d4724a25a66867d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_c4a4c9082d5995e84b3a002a1515f45dd74c4009.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/3c9e5e2935e96df31b4404a96f294455092726c3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_f14b86cad299d93649023a13ff066d3dc0e7c94f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abhinav/.android/build-cache/79cab39a4f5238ef8e29b6810d4724a25a66867d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c4a4c9082d5995e84b3a002a1515f45dd74c4009/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/bb1d03c6cf53c1426fcbd0c92261cd461a46bb0a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b7105277df9a8013468215c451ddefac2499d3a">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_94bbf65e7110386b10d9019d100fdd2bffc8fbbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/fdaa06b5afb7c96fedbf9a6c16fdfa1c1d62e275/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_8ba8cf67a7b5c72a9fa75fbc549e3bcd09384384.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abhinav/.android/build-cache/23c67184f27fd76d83ad49cf15fa09aa51d24ffc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_36cf94d3e3730f1167c4e8cf84c11324744a59c9/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/support-annotations-26.0.0-alpha1_de12d2caf6c7d5ec9eaeb31872c8ac99f45d316c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/23c67184f27fd76d83ad49cf15fa09aa51d24ffc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_36cf94d3e3730f1167c4e8cf84c11324744a59c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/236d7d3277309115733ef6c108f484e99ceb1d4f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_acd7ee0ad77dbc01922d6574ebade1afd98cc7c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/45163ed9ddc267afdd2cdf4a6485eabcd30da30c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_2d000b08453aa16753f01dd3813e87dcb02076cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/a5d6590e78ae0f13b62113529ae24767097aa111/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_d470a19805de0e03844538f8cbb53929d6b86367.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/e815a06b59438e69200cf6bdbc293248b6f87c3e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_9e5fe19b2bb2240e1c8897f7595ecf3157a56889.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/8383d2fc5b8fbdf01e82989c251df13c9edf28b7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_e6b31337b6f22e4216589ef8cace1ed6f6fcb0b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/6ed532c997aa93dbe8b44729ac429709679268d6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="aad07a374c48a359c774083dd608d7d8d48def05">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/debug/classes_638ce179b83bf9597aa4282dc7c56ac20d23b5a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/c92c086f74f7c0d390ffc595333d8fb1cad7009f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="98684c2dd540ae9d80457028a4fce156e8f9b7d3">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_bb796927109ee916ef951a78fd986e7c0d94a5df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/872d0817a0f662b31f8409a5313f527fce27f9ad/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_554da62e82da0112ca179bb22bcde0344e3d8437.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abhinav/.android/build-cache/872d0817a0f662b31f8409a5313f527fce27f9ad/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_554da62e82da0112ca179bb22bcde0344e3d8437/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/e568ab0adb47e8c4e1b161b6d712c168415fd6d6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8e325e9ba5c23d635d0cfaa76c349fca83101f8a">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/debug/classes_9a5f32c671c8ab36828ada7fbb346960db24efae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/c5ed9b305d437c53fcaad845cfa4ef4f4076e899/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f2ce37ca3af00f3c2fe692c9a911617a6d5f501b">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/debug/classes_aee89398d21238d80f37bc85d9c2e388649f212d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/58ec976e857d0b1775c046517829909a9b7219ec/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_f7ea7ce56700cd486dabfc04e7cb49a6d22bfda4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/4a641528c205dd4a876bb5e2e259a7d287bcb57d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_ceed97ac90283fbf8ab0bc7fbf6a2f046717fbe7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/c035bb1ad228b764fe31c1edafce874dfd696823/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_512f430ff004520bbd814ea318cb47fd1babe0e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/bd1c96bf00960fb29e568c600af308601f3f9636/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_ff75376b181a56807e964802f0588c487f3bd962.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/91fd6d6d9f8db672198479e192150ed2864912c7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_b6fd6328b8c7a7d68dc9b56741ffa8defeab7909.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abhinav/Desktop/Technex18/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2db96822a6be7fef2e39cb5a9ca8607d9867dc6e">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e63d4bce453ba64aa5256321c6e1c73af97c477a/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/abhinav/.android/build-cache/cf4172804d5439645bed8e4bd3d852cf1ff2cae3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/pre-dexed/release/classes_1ceb35f5810c11f12190db3fd008e711a6309944.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abhinav/.android/build-cache/91fd6d6d9f8db672198479e192150ed2864912c7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b6fd6328b8c7a7d68dc9b56741ffa8defeab7909/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abhinav/Desktop/Technex18/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a7fc73fd0d1c6887e1177d73845916b12657d55e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abhinav/.android/build-cache/58ec976e857d0b1775c046517829909a9b7219ec/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/home/abhinav/Desktop/Technex18/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f7ea7ce56700cd486dabfc04e7cb49a6d22bfda4/classes.dex" />
+    </item>
+
+</items>
