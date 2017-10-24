@@ -1,4 +1,4 @@
-package networkuse;
+package com.iitbhu.technex18.helper;
 
 /**
  * Created by abhinav on 25/9/17.
@@ -21,6 +21,9 @@ public interface URLs {
 
     //Remote URLs
     String LOGIN_URL = "http://technex-ca.herokuapp.com/api/login/";
+    String EDIT_PROFILE="http://technex-ca.herokuapp.com/api/editprofile/";
+    String LEADERBOARD="http://technex-ca.herokuapp.com/api/leaderboard/";
+    String DASHBOARD="http://technex-ca.herokuapp.com/api/dashboard/";
     String REGISTER_URL = "http://technexuser.herokuapp.com/api/register/";
     String GUEST_LECTURES_URL = "https://technexuser.herokuapp.com/api/guestLecture/";
     String EVENTS_URL = "https://technexuser.herokuapp.com/api/eventApi/";

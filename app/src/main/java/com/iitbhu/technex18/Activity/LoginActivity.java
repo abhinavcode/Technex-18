@@ -34,11 +34,14 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
+import static com.iitbhu.technex18.helper.URLs.LOGIN_URL;
+import static com.iitbhu.technex18.utils1.Constants.ADDRESS;
 import static com.iitbhu.technex18.utils1.Constants.COLLEGE;
 import static com.iitbhu.technex18.utils1.Constants.CONTACT;
 import static com.iitbhu.technex18.utils1.Constants.EMAIL;
+import static com.iitbhu.technex18.utils1.Constants.FIRST_NAME;
+import static com.iitbhu.technex18.utils1.Constants.LAST_NAME;
 import static com.iitbhu.technex18.utils1.Constants.LOGIN;
-import static com.iitbhu.technex18.utils1.Constants.NAME;
 import static com.iitbhu.technex18.utils1.Constants.PASSWORD;
 import static com.iitbhu.technex18.utils1.Constants.PAST_EXP;
 import static com.iitbhu.technex18.utils1.Constants.PIN;
@@ -47,7 +50,6 @@ import static com.iitbhu.technex18.utils1.Constants.REGISTERED;
 import static com.iitbhu.technex18.utils1.Constants.WHATSAPP_NUMBER;
 import static com.iitbhu.technex18.utils1.Constants.WHY_CHOOSE_YOU;
 import static com.iitbhu.technex18.utils1.Constants.YEAR;
-import static networkuse.URLs.LOGIN_URL;
 
 public class LoginActivity extends AppCompatActivity {
     private TextInputEditText username;
@@ -183,8 +185,10 @@ public class LoginActivity extends AppCompatActivity {
                         editor.putString(PIN, resp.getString("pinCode"));
                         editor.putString(COLLEGE, resp.getString("college"));
                         editor.putString(CONTACT, resp.getString("mobileNumber"));
-                        editor.putString(NAME, resp.getString("name"));
+                        editor.putString(FIRST_NAME, resp.getString("first_name"));
+                        editor.putString(LAST_NAME, resp.getString("last_name"));
                         editor.putString(YEAR, resp.getString("year"));
+                        editor.putString(ADDRESS,resp.getString("postal_address"));
                         editor.commit();
                         Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
                         progress.dismiss();

@@ -9,7 +9,8 @@ import java.util.Map;
 public interface Constants {
 
     public static final String PREFERENCES= "myprefs";
-    public static final String NAME= "name";
+    public static final String FIRST_NAME= "firstname";
+    public static final String LAST_NAME= "lastname";
     public static final String EMAIL = "email";
     public static final String PASSWORD = "password";
     public static final String CONTACT = "contact";
@@ -17,6 +18,8 @@ public interface Constants {
     public static final String YEAR = "year";
     public static final String PIN = "pin";
     public static final String TECHNEX_ID = "technex_id";
+    public static final String ADDRESS = "address";
+
     public static final String REGISTERED = "registered";
     public static final String WHATSAPP_NUMBER = "whatsapp_number";
     public static final String PAST_EXP = "past_exp";
